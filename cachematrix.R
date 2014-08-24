@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
  }
  
  # Getter for the matrix
-  get<-function() x
+ get<-function() x
  
  # Setter for the inverse
  setmatrix<-function(solve) m<<- solve
